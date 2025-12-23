@@ -1,6 +1,8 @@
 const notes = require('./notes.js')
 console.log(notes());
 
+const validator = require('validator')
+console.log(validator.isEmail('hexample.com'));
 
 
 
