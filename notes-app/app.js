@@ -1,10 +1,13 @@
-const notes = require('./notes.js')
-console.log(notes());
+const ch = require('chalk')
 
-const validator = require('validator')
-console.log(validator.isEmail('hexample.com'));
+console.log(ch.bold.green('Success!'));
 
 
+// const notes = require('./notes.js')
+// console.log(notes());
+
+// const validator = require('validator')
+// console.log(validator.isEmail('hexample.com'));
 
 // const fs = require('fs')
 
